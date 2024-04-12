@@ -5,7 +5,7 @@
   <section id="Header" class="flex flex-col gap-[100px] bg-portto-black relative">
     <nav class="container max-w-[1130px] mx-auto flex justify-between items-center pt-[30px] z-10">
       <a href="index.html" class="w-[161px] flex shrink-0 h-fit w-fit">
-        <img src="../assets/images/logos/logo.svg" alt="logo">
+        <img src="{{ asset('/images/logos/logo.svg') }}" alt="logo">
       </a>
       <div class="flex gap-[50px] items-center">
         <ul class="flex gap-[50px] items-center text-white">
@@ -44,9 +44,9 @@
           Now</button>
       </div>
       <div class="flex max-w-[471px] max-h-[567px] z-10">
-        <img src="../assets/images/hero-image.png" class="object-contain w-full h-full" alt="hero image">
+        <img src="{{ asset('/images/hero-image.png') }}" class="object-contain w-full h-full" alt="hero image">
       </div>
-      <img src="../assets/images/Ellipse.svg"
+      <img src="{{ asset('/images/Ellipse.svg') }}"
         class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2" alt="background icon">
     </div>
     <div class="company-logos w-full overflow-hidden pb-[190px]">
@@ -54,55 +54,55 @@
         <div
           class="logo-container animate-[slide_25s_linear_infinite] group-hover/slider:pause-animate  flex gap-[70px] pl-[70px] items-center flex-nowrap">
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum1.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum1.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum2.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum2.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum3.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum3.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum4.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum4.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum1.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum1.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum2.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum2.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum3.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum3.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum4.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum4.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
         </div>
         <div
           class="logo-container animate-[slide_25s_linear_infinite] group-hover/slider:pause-animate  flex gap-[70px] pl-[70px] items-center flex-nowrap ">
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum1.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum1.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum2.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum2.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum3.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum3.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum4.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum4.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum1.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum1.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum2.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum2.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum3.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum3.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
           <div class="flex w-fit h-[40px] shrink-0">
-            <img src="../assets/images/logos/logoipsum4.png" class="object-contain w-full h-full" alt="logo">
+            <img src="{{ asset('/images/logos/logoipsum4.png') }}" class="object-contain w-full h-full" alt="logo">
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@
       <div class="grid grid-cols-2 gap-[30px]">
         <div class="p-[50px] pb-0 rounded-[30px] flex flex-col gap-[50px] bg-[#F4F5F8]">
           <div class="flex items-center justify-center w-20 h-20 rounded-full shrink-0 bg-portto-purple">
-            <img src="../assets/images/icons/crown.svg" class="object-contain w-10 h-10" alt="icon">
+            <img src="{{ asset('/images/icons/crown.svg') }}" class="object-contain w-10 h-10" alt="icon">
           </div>
           <div class="flex flex-col gap-5">
             <p class="font-extrabold text-[32px] leading-[48px]">High-Quality Mobile App UI/UX Design</p>
@@ -151,12 +151,12 @@
               using your product.</p>
           </div>
           <div class="w-full h-[350px]">
-            <img src="../assets/images/services1.png" class="object-contain w-full" alt="image">
+            <img src="{{ asset('/images/services1.png') }}" class="object-contain w-full" alt="image">
           </div>
         </div>
         <div class="p-[50px] pb-0 rounded-[30px] flex flex-col gap-[50px] bg-[#F4F5F8]">
           <div class="flex items-center justify-center w-20 h-20 rounded-full shrink-0 bg-portto-green">
-            <img src="../assets/images/icons/code.svg" class="object-contain w-10 h-10" alt="icon">
+            <img src="{{ asset('/images/icons/code.svg') }}" class="object-contain w-10 h-10" alt="icon">
           </div>
           <div class="flex flex-col gap-5">
             <p class="font-extrabold text-[32px] leading-[48px]">AI Business Dashboard Finance Company</p>
@@ -164,13 +164,13 @@
               using product.</p>
           </div>
           <div class="w-full h-[350px]">
-            <img src="../assets/images/services2.png" class="object-contain w-full" alt="image">
+            <img src="{{ asset('/images/services2.png') }}" class="object-contain w-full" alt="image">
           </div>
         </div>
         <div class="col-span-2 p-[50px] pb-0 rounded-[30px] flex gap-[50px] bg-[#F4F5F8]">
           <div class="flex flex-col gap-[50px]">
             <div class="flex items-center justify-center w-20 h-20 rounded-full shrink-0 bg-portto-red">
-              <img src="../assets/images/icons/3dcube.svg" class="object-contain w-10 h-10" alt="icon">
+              <img src="{{ asset('/images/icons/3dcube.svg') }}" class="object-contain w-10 h-10" alt="icon">
             </div>
             <div class="flex flex-col gap-5">
               <p class="font-extrabold text-[32px] leading-[48px]">Robust Plugins Connected Machine Learning</p>
@@ -179,7 +179,7 @@
             </div>
           </div>
           <div class="w-[450px] h-[350px] flex shrink-0">
-            <img src="../assets/images/services3.png" class="object-contain w-full" alt="image">
+            <img src="{{ asset('/images/services3.png') }}" class="object-contain w-full" alt="image">
           </div>
         </div>
       </div>
@@ -187,7 +187,7 @@
   </section>
 
   <section id="Projects"
-    class=" w-full flex flex-col py-[100px] bg-[url('../assets/images/background/background1.png')] bg-cover bg-center bg-no-repeat">
+    class=" w-full flex flex-col py-[100px] bg-[url('{{ asset('/images/background/background1.png') }}')] bg-cover bg-center bg-no-repeat">
     <div class="flex flex-col gap-[10px] mb-[50px]">
       <h2 class="font-extrabold text-[50px] leading-[70px] text-center text-white">Great Projects</h2>
       <p class="text-lg text-center text-white">Working with awesome team from around the world</p>
@@ -199,7 +199,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail1.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail1.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -211,7 +212,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -219,7 +220,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail2.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail2.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -231,7 +233,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -239,7 +241,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail3.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail3.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -251,7 +254,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -262,7 +265,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail1.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail1.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -274,7 +278,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -282,7 +286,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail2.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail2.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -294,7 +299,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -302,7 +307,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail3.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail3.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -314,7 +320,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -329,7 +335,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail1.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail1.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -341,7 +348,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -349,7 +356,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail2.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail2.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -361,7 +369,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -369,7 +377,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail3.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail3.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -381,7 +390,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -392,7 +401,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail1.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail1.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -404,7 +414,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -412,7 +422,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail2.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail2.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -424,7 +435,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -432,7 +443,8 @@
           <div
             class="group w-[650px] h-[450px] flex shrink-0 rounded-[30px] border border-white p-5 bg-[#FFFFFF33] backdrop-blur relative">
             <div class="w-[608px] h-[408px] rounded-[30px] overflow-hidden absolute">
-              <img src="../assets/images/thumbnails/thumbnail3.png" class="object-cover w-full h-full" alt="thumbnail">
+              <img src="{{ asset('/images/thumbnails/thumbnail3.png') }}" class="object-cover w-full h-full"
+                alt="thumbnail">
             </div>
             <div
               class="flex flex-col w-full items-center justify-center gap-[50px] bg-portto-black rounded-[30px] relative opacity-0 hover:opacity-100 transition-all duration-300">
@@ -444,7 +456,7 @@
               <a href="details.html"
                 class="z-10 font-bold text-lg text-center w-fit h-fit bg-portto-light-gold rounded-full p-[14px_30px] transition-all duration-300 hover:shadow-[0_10px_20px_0_#FFE7C280]">View
                 Details</a>
-              <img src="../assets/images/Ellipse.svg"
+              <img src="{{ asset('/images/Ellipse.svg') }}"
                 class="absolute w-1/2 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2"
                 alt="background icon">
             </div>
@@ -460,7 +472,7 @@
       <div class="flex items-center justify-between">
         <div class="w-[350px] flex flex-col shrink-0 gap-[30px] items-center">
           <div class="flex-none">
-            <img src="../assets/images/icons/messages-notif.svg" alt="icon">
+            <img src="{{ asset('/images/icons/messages-notif.svg') }}" alt="icon">
           </div>
           <div class="flex flex-col gap-[10px] text-center">
             <p class="font-extrabold text-[22px] leading-[33px]">Research & Validate</p>
@@ -469,7 +481,7 @@
         </div>
         <div class="w-[350px] flex flex-col shrink-0 gap-[30px] items-center">
           <div class="flex-none">
-            <img src="../assets/images/icons/programming-notif.svg" alt="icon">
+            <img src="{{ asset('/images/icons/programming-notif.svg') }}" alt="icon">
           </div>
           <div class="flex flex-col gap-[10px] text-center">
             <p class="font-extrabold text-[22px] leading-[33px]">Building with Teams</p>
@@ -478,7 +490,7 @@
         </div>
         <div class="w-[350px] flex flex-col shrink-0 gap-[30px] items-center">
           <div class="flex-none">
-            <img src="../assets/images/icons/like-notif.svg" alt="icon">
+            <img src="{{ asset('/images/icons/like-notif.svg') }}" alt="icon">
           </div>
           <div class="flex flex-col gap-[10px] text-center">
             <p class="font-extrabold text-[22px] leading-[33px]">Deliver to Clients</p>
@@ -519,20 +531,20 @@
       <div class="grid grid-cols-2 gap-[30px] mt-[50px]">
         <div class="card-testi bg-white rounded-[30px] flex flex-col p-5 gap-5">
           <div class="h-[40px] flex shrink-0">
-            <img src="../assets/images/logos/logo-testi.svg" alt="logo">
+            <img src="{{ asset('/images/logos/logo-testi.svg') }}" alt="logo">
           </div>
           <p class="font-semibold text-[22px] leading-[40px]">“Her working method were truly different from other
             freelancers, she has this kind of mindset that can create user-center product and user loved it”</p>
           <div class="flex h-8">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
           </div>
           <div class="flex items-center gap-4">
             <div class="w-[70px] h-[70px] shrink-0">
-              <img src="../assets/images/photo/photo.png" alt="photo">
+              <img src="{{ asset('/images/photo/photo.png') }}" alt="photo">
             </div>
             <div class="flex flex-col gap-[2px]">
               <p class="font-bold text-xl leading-[30px]">Jessi Lyio</p>
@@ -542,20 +554,20 @@
         </div>
         <div class="card-testi bg-white rounded-[30px] flex flex-col p-5 gap-5">
           <div class="h-[40px] flex shrink-0">
-            <img src="../assets/images/logos/logo-testi2.svg" alt="logo">
+            <img src="{{ asset('/images/logos/logo-testi2.svg') }}" alt="logo">
           </div>
           <p class="font-semibold text-[22px] leading-[40px]">“She helped us to build our first prototype to win our
             investor and early users heart that generate huge attraction. Will hire her back again anytime soon”</p>
           <div class="flex h-8">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
           </div>
           <div class="flex items-center gap-4">
             <div class="w-[70px] h-[70px] shrink-0">
-              <img src="../assets/images/photo/photo2.png" alt="photo">
+              <img src="{{ asset('/images/photo/photo2.png') }}" alt="photo">
             </div>
             <div class="flex flex-col gap-[2px]">
               <p class="font-bold text-xl leading-[30px]">Mariam Sya</p>
@@ -565,20 +577,20 @@
         </div>
         <div class="card-testi bg-white rounded-[30px] flex flex-col p-5 gap-5">
           <div class="h-[40px] flex shrink-0">
-            <img src="../assets/images/logos/logo-testi3.svg" alt="logo">
+            <img src="{{ asset('/images/logos/logo-testi3.svg') }}" alt="logo">
           </div>
           <p class="font-semibold text-[22px] leading-[40px]">“She helped us to build our first prototype to win our
             investor and early users heart that generate huge attraction. Will hire her back again anytime soon”</p>
           <div class="flex h-8">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
           </div>
           <div class="flex items-center gap-4">
             <div class="w-[70px] h-[70px] shrink-0">
-              <img src="../assets/images/photo/photo3.png" alt="photo">
+              <img src="{{ asset('/images/photo/photo3.png') }}" alt="photo">
             </div>
             <div class="flex flex-col gap-[2px]">
               <p class="font-bold text-xl leading-[30px]">John Ceyna</p>
@@ -588,20 +600,20 @@
         </div>
         <div class="card-testi bg-white rounded-[30px] flex flex-col p-5 gap-5">
           <div class="h-[40px] flex shrink-0">
-            <img src="../assets/images/logos/logo-testi4.svg" alt="logo">
+            <img src="{{ asset('/images/logos/logo-testi4.svg') }}" alt="logo">
           </div>
           <p class="font-semibold text-[22px] leading-[40px]">“Her working method were truly different from other
             freelancers, she has this kind of mindset that can create user-center product and user loved it”</p>
           <div class="flex h-8">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
-            <img src="../assets/images/icons/Star.svg" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
+            <img src="{{ asset('/images/icons/Star.svg') }}" alt="star">
           </div>
           <div class="flex items-center gap-4">
             <div class="w-[70px] h-[70px] shrink-0">
-              <img src="../assets/images/photo/photo.png" alt="photo">
+              <img src="{{ asset('/images/photo/photo.png') }}" alt="photo">
             </div>
             <div class="flex flex-col gap-[2px]">
               <p class="font-bold text-xl leading-[30px]">Yein Balli</p>
@@ -613,129 +625,12 @@
     </div>
   </section>
 
-  <section id="FAQ" class="container max-w-[1130px] mx-auto">
-    <div class="flex gap-[70px] items-center pt-[100px] pb-[150px]">
-      <div class="flex flex-col gap-[30px]">
-        <div class="flex items-center justify-center w-20 h-20 rounded-full shrink-0 bg-portto-purple">
-          <img src="../assets/images/icons/messages.svg" alt="icon">
-        </div>
-        <div class="flex flex-col gap-[10px]">
-          <h2 class="font-extrabold text-[50px] leading-[70px]">Frequently Asked Questions</h2>
-          <p class="text-lg text-[#878C9C]">If you have any question please contact me.</p>
-        </div>
-        <a href=""
-          class="bg-portto-black font-bold text-lg text-white rounded-full p-[14px_30px] w-fit transition-all duration-300 hover:bg-white hover:text-portto-black hover:ring hover:ring-portto-black">Contact
-          Me</a>
-      </div>
-      <div class="flex flex-col gap-[30px] w-[603px] shrink-0">
-        <div class="flex flex-col p-5 rounded-2xl bg-[#F4F5F8] w-full">
-          <button class="flex items-center justify-between gap-1 accordion-button" data-accordion="accordion-faq-1">
-            <span class="text-2xl font-bold">How do I work usually?</span>
-            <div class="flex arrow w-9 h-9 shrink-0">
-              <img src="../assets/images/icons/arrow-circle-down.svg" class="transition-all duration-300"
-                alt="icon">
-            </div>
-          </button>
-          <div id="accordion-faq-1" class="accordion-content hide">
-            <p class="text-[20px] leading-[36px] pt-5">As a freelancer, my work process is characterized by
-              flexibility, self-discipline, and a strong emphasis on client communication.</p>
-          </div>
-        </div>
-        <div class="flex flex-col p-5 rounded-2xl bg-[#F4F5F8] w-full">
-          <button class="flex items-center justify-between gap-1 accordion-button" data-accordion="accordion-faq-2">
-            <span class="text-2xl font-bold">How much I charge per project?</span>
-            <div class="flex arrow w-9 h-9 shrink-0">
-              <img src="../assets/images/icons/arrow-circle-down.svg" class="transition-all duration-300"
-                alt="icon">
-            </div>
-          </button>
-          <div id="accordion-faq-2" class="accordion-content hide">
-            <p class="text-[20px] leading-[36px] pt-5">I don’t charge hourly. I charge based on the project brief and
-              given timeline to finish that particular project.</p>
-          </div>
-        </div>
-        <div class="flex flex-col p-5 rounded-2xl bg-[#F4F5F8] w-full">
-          <button class="flex items-center justify-between gap-1 accordion-button" data-accordion="accordion-faq-3">
-            <span class="text-2xl font-bold">Can I work full-time?</span>
-            <div class="flex arrow w-9 h-9 shrink-0">
-              <img src="../assets/images/icons/arrow-circle-down.svg" class="transition-all duration-300"
-                alt="icon">
-            </div>
-          </button>
-          <div id="accordion-faq-3" class="accordion-content hide">
-            <p class="text-[20px] leading-[36px] pt-5">I don’t work full-time. At this moment, I prefer to work
-              remotely and based on the certain project only.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <x-faq />
 
-  <footer class="bg-portto-black text-white pb-[50px] border-t-[10px] border-portto-purple">
-    <div
-      class="container max-w-[1130px] mx-auto flex justify-between pt-[100px] pb-[50px] mb-[50px] relative border-b border-[#585867]">
-      <img src="../assets/images/Ellipse.svg" class="absolute h-[300px] top-[70px] -left-[20px] z-0" alt="icon">
-      <div class="z-10 flex shrink-0 h-fit">
-        <img src="../assets/images/logos/logo.svg" alt="logo">
-      </div>
-      <div class="flex gap-[100px] z-10">
-        <div class="flex flex-col gap-5">
-          <p class="text-lg font-bold">Explore</p>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">Services</a>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">Testimonials</a>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">Pricing</a>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">About</a>
-        </div>
-        <div class="flex flex-col gap-5">
-          <p class="text-lg font-bold">Services</p>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">UI/UX
-            Design</a>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">Web
-            Development</a>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">Data
-            Science</a>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">Digital
-            Marketing</a>
-        </div>
-        <div class="flex flex-col gap-5">
-          <p class="text-lg font-bold">About</p>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">My
-            Profile</a>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">How do I
-            work</a>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">Achievements</a>
-          <a href=""
-            class="font-medium transition-all duration-300 hover:font-semibold hover:text-portto-light-gold">Team A</a>
-        </div>
-        <div class="flex flex-col gap-5">
-          <p class="text-lg font-bold">Connect</p>
-          <a href=""
-            class="font-medium hover:font-semibold hover:text-portto-light-gold transition-all duration-300 flex items-center gap-[6px]"><img
-              src="../assets/images/icons/call.svg" alt="icon">+1 2208 1996</a>
-          <a href=""
-            class="font-medium hover:font-semibold hover:text-portto-light-gold transition-all duration-300 flex items-center gap-[6px]"><img
-              src="../assets/images/icons/dribbble.svg" alt="icon">buildwithangga</a>
-          <a href=""
-            class="font-medium hover:font-semibold hover:text-portto-light-gold transition-all duration-300 flex items-center gap-[6px]"><img
-              src="../assets/images/icons/sms.svg" alt="icon">team@bwa.com</a>
-        </div>
-      </div>
-    </div>
-    <p class="text-sm text-[#A0A0AC] text-center">All Rights Reserved. Copyright BuildWithAngga 2024.</p>
-  </footer>
+  <x-footer />
+
 
   @push('after-script')
-    <script src="main.js"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
   @endpush
 @endsection
