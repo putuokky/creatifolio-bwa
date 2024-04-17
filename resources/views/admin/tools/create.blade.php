@@ -1,7 +1,7 @@
 <x-app-layout>
   <x-slot name="header">
     <h2 class="text-xl font-semibold leading-tight text-gray-800">
-      {{ __('My Projects') }}
+      {{ __('My Tools') }}
     </h2>
   </x-slot>
 
@@ -19,36 +19,26 @@
           </div>
         @endif
 
-        <form action="{{ route('admin.projects.store') }}" enctype="multipart/form-data" method="POST">
+        <form action="{{ route('admin.tools.store') }}" enctype="multipart/form-data" method="POST">
           @csrf
           <div class="flex flex-col gap-y-5">
             <h1 class="text-3xl font-bold text-indigo-950">
-              Add New Project
+              Add New Tools
             </h1>
             <div class="flex flex-col gap-y-2">
               <h3>Name</h3>
               <input type="text" id="name" name="name">
             </div>
             <div class="flex flex-col gap-y-2">
-              <h3>Category</h3>
-              <select name="category" id="category">
-                <option value="">Choose Category below</option>
-                <option value="Website Development">Website Development</option>
-                <option value="App Development">App Development</option>
-                <option value="Graphic Design">Graphic Design</option>
-                <option value="Digital Marketing">Digital Marketing</option>
-              </select>
+              <h3>Tagline</h3>
+              <input type="text" id="tagline" name="tagline">
             </div>
             <div class="flex flex-col gap-y-2">
-              <h3>Cover Image</h3>
-              <input type="file" id="cover" name="cover">
-            </div>
-            <div class="flex flex-col gap-y-2">
-              <h3>About</h3>
-              <textarea name="about" id="about" cols="30" rows="10"></textarea>
+              <h3>Logo</h3>
+              <input type="file" id="logo" name="logo">
             </div>
             <button type="submit" class="w-full py-4 font-bold text-white rounded-full bg-violet-700">Upload
-              Project</button>
+              Tool</button>
 
           </div>
         </form>
