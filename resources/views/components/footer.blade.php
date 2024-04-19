@@ -49,15 +49,15 @@
         <p class="text-lg font-bold">Connect</p>
         <a href=""
           class="font-medium hover:font-semibold hover:text-portto-light-gold transition-all duration-300 flex items-center gap-[6px]"><img
-            src="{{ asset('/images/icons/call.svg') }}" alt="icon">+1 2208 1996</a>
+            src="{{ asset('/images/icons/call.svg') }}" alt="icon">+62 2208 1996</a>
         <a href=""
           class="font-medium hover:font-semibold hover:text-portto-light-gold transition-all duration-300 flex items-center gap-[6px]"><img
             src="{{ asset('/images/icons/dribbble.svg') }}" alt="icon">buildwithangga</a>
         <a href=""
           class="font-medium hover:font-semibold hover:text-portto-light-gold transition-all duration-300 flex items-center gap-[6px]"><img
-            src="{{ asset('/images/icons/sms.svg') }}" alt="icon">team@bwa.com</a>
+            src="{{ asset('/images/icons/sms.svg') }}" alt="icon">info@mahesora.xyz</a>
       </div>
     </div>
   </div>
-  <p class="text-sm text-[#A0A0AC] text-center">All Rights Reserved. Copyright BuildWithAngga 2024.</p>
+  <p class="text-sm text-[#A0A0AC] text-center">All Rights Reserved. Copyright Mahesora {{ date('Y') }}.</p>
 </footer>

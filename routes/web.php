@@ -3,6 +3,7 @@
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\ProjectScreenshotController;
 use App\Http\Controllers\ProjectToolController;
 use App\Http\Controllers\ToolController;
 use Illuminate\Support\Facades\Route;
@@ -23,8 +24,9 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [FrontController::class, 'index'])->name('front.index');
-Route::get('/details', [FrontController::class, 'details'])->name('front.details');
+Route::get('/details/{project:slug}', [FrontController::class, 'details'])->name('front.details');
 Route::get('/book', [FrontController::class, 'book'])->name('front.book');
+Route::get('/services', [FrontController::class, 'services'])->name('front.services');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -44,6 +46,10 @@ Route::middleware('auth')->group(function () {
 
         Route::get('/tools/assign/{project}', [ProjectToolController::class, 'create'])->name('project.assign.tool');
         Route::post('/tools/assign/save/{project}', [ProjectToolController::class, 'store'])->name('project.assign.tool.store');
+
+        Route::resource('project_screenshots', ProjectScreenshotController::class);
+        Route::get('/screenshots/{project}', [ProjectScreenshotController::class, 'create'])->name('project_screenshots.create');
+        Route::post('/screenshots/save/{project}', [ProjectScreenshotController::class, 'store'])->name('project_screenshots.store');
     });
 });
 
