@@ -52,7 +52,7 @@
             src="{{ asset('/images/icons/call.svg') }}" alt="icon">+62 2208 1996</a>
         <a href=""
           class="font-medium hover:font-semibold hover:text-portto-light-gold transition-all duration-300 flex items-center gap-[6px]"><img
-            src="{{ asset('/images/icons/dribbble.svg') }}" alt="icon">buildwithangga</a>
+            src="{{ asset('/images/icons/dribbble.svg') }}" alt="icon">build`withangga</a>
         <a href=""
           class="font-medium hover:font-semibold hover:text-portto-light-gold transition-all duration-300 flex items-center gap-[6px]"><img
             src="{{ asset('/images/icons/sms.svg') }}" alt="icon">info@mahesora.xyz</a>
