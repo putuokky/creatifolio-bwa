@@ -26,7 +26,17 @@
         <h1 class="font-extrabold text-[50px] leading-[75px]">Book a Meeting</h1>
         <p class="text-lg">Tell me anything about your biggest future dreams</p>
       </div>
-      <form action="" class="flex flex-col gap-5 w-[550px]">
+      @if ($errors->any())
+        <div class="alert alert-danger">
+          <ul>
+            @foreach ($errors->all() as $error)
+              <li class="py-5 font-bold text-white bg-red-700">{{ $error }}</li>
+            @endforeach
+          </ul>
+        </div>
+      @endif
+      <form action="{{ route('front.book.store') }}" method="POST" class="flex flex-col gap-5 w-[550px]">
+        @csrf
         <label class="flex flex-col gap-[10px] font-semibold">
           <span class="text-white">Complete Name</span>
           <input type="text" name="name" id="name"
@@ -46,12 +56,15 @@
               class="font-semibold bg-white rounded-full p-[14px_30px] pr-[54px] appearance-none outline-none focus:ring-[3px] focus:ring-portto-green invalid:text-[#878C9C] invalid:font-normal bg-[url({{ asset('/images/icons/arrow-down.svg') }})] bg-no-repeat bg-[91%]"
               required>
               <option value="" class="text-[#878C9C]" selected disabled hidden>Select category</option>
-              <option value="">Website Development</option>
+              <option value="Website Development">Website Development</option>
+              <option value="App Development">App Development</option>
+              <option value="Graphic Design">Graphic Design</option>
+              <option value="Digital Marketing">Digital Marketing</option>
             </select>
           </label>
           <label class="flex flex-col gap-[10px] font-semibold w-full">
             <span class="text-white">Est. Budget (USD)</span>
-            <input type="number" name="budget" id="email"
+            <input type="number" name="budget" id="budget"
               class="bg-white rounded-full p-[14px_30px] appearance-none outline-none focus:ring-[3px] focus:ring-portto-green placeholder:font-normal placeholder:text-base placeholder:text-[#878C9C]"
               placeholder="Tell me your budget" required>
           </label>
